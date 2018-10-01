@@ -59,6 +59,6 @@ grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-karma');
 grunt.loadNpmTasks('grunt-webpack-without-server');
 
-grunt.registerTask('build', ['clean', 'jshint', 'karma', 'webpack', 'clean:tmp']);
+grunt.registerTask('build', ['clean', 'jshint', 'webpack', 'clean:tmp']);
 grunt.registerTask('test', ['jshint', 'karma']);
 };
